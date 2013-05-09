@@ -59,23 +59,24 @@ public final class R {
         public static final int TextView04=0x7f090014;
         public static final int TextView05=0x7f090016;
         public static final int aboutmetext=0x7f090087;
-        public static final int action_forgot_password=0x7f090093;
-        public static final int action_settings=0x7f090092;
+        public static final int action_forgot_password=0x7f090096;
+        public static final int action_settings=0x7f090095;
         public static final int activity_article_detail=0x7f090000;
         public static final int addtag=0x7f09007b;
-        public static final int articletext=0x7f090089;
+        public static final int articletext=0x7f09008a;
         public static final int artist=0x7f090066;
         public static final int btnChangePhoto=0x7f090067;
         public static final int btnEditDone=0x7f090030;
         public static final int btnMainMenu=0x7f09005a;
         public static final int btnRegister=0x7f090053;
+        public static final int btnadd=0x7f090088;
         public static final int button_evaluate=0x7f090007;
         public static final int button_save=0x7f09001c;
         public static final int conferenceText=0x7f09007d;
-        public static final int contextual_menu_delete=0x7f090099;
-        public static final int contextual_menu_download=0x7f090098;
-        public static final int contextual_menu_share=0x7f090097;
-        public static final int contextual_menu_view=0x7f090096;
+        public static final int contextual_menu_delete=0x7f09009c;
+        public static final int contextual_menu_download=0x7f09009b;
+        public static final int contextual_menu_share=0x7f09009a;
+        public static final int contextual_menu_view=0x7f090099;
         public static final int countPagesText=0x7f09007f;
         public static final int dateTime=0x7f090080;
         public static final int dl=0x7f090071;
@@ -84,6 +85,7 @@ public final class R {
         public static final int ebirthday=0x7f09002b;
         public static final int ecountry=0x7f090029;
         public static final int edegree=0x7f090028;
+        public static final int editTextDialogUserInput=0x7f090094;
         public static final int editText_comments=0x7f09001b;
         public static final int editl=0x7f090074;
         public static final int eemail=0x7f09002e;
@@ -105,8 +107,8 @@ public final class R {
         public static final int imageButton2=0x7f09006f;
         public static final int imageButton3=0x7f090072;
         public static final int imageButton4=0x7f090075;
-        public static final int imageButtonsearch=0x7f09008f;
-        public static final int imageButtonsearchpeople=0x7f090091;
+        public static final int imageButtonsearch=0x7f090090;
+        public static final int imageButtonsearchpeople=0x7f090092;
         public static final int include1=0x7f090055;
         public static final int label_article_abstract=0x7f090005;
         public static final int label_article_abstract_text=0x7f090006;
@@ -123,6 +125,7 @@ public final class R {
         public static final int label_review_notes=0x7f09003d;
         public static final int label_row_evaluation_date=0x7f090081;
         public static final int label_row_evaluation_notes=0x7f090082;
+        public static final int layout_root=0x7f090093;
         public static final int libsSpinner=0x7f09001f;
         public static final int linear_layout_article_details=0x7f090001;
         public static final int linearlayout1=0x7f09000a;
@@ -139,8 +142,8 @@ public final class R {
         public static final int login_status_message=0x7f090042;
         public static final int logout_button=0x7f09004f;
         public static final int menu=0x7f09004e;
-        public static final int menu_my_downloads=0x7f090095;
-        public static final int menu_search=0x7f090094;
+        public static final int menu_my_downloads=0x7f090098;
+        public static final int menu_search=0x7f090097;
         public static final int menu_view=0x7f09004c;
         public static final int options=0x7f090020;
         public static final int password=0x7f090047;
@@ -148,9 +151,9 @@ public final class R {
         public static final int publicationYear=0x7f09007e;
         public static final int radio0=0x7f090021;
         public static final int radio1=0x7f090022;
-        public static final int radioAuthor=0x7f09008c;
-        public static final int radioSearchop=0x7f09008b;
-        public static final int radioTitle=0x7f09008d;
+        public static final int radioAuthor=0x7f09008d;
+        public static final int radioSearchop=0x7f09008c;
+        public static final int radioTitle=0x7f09008e;
         public static final int ratingBar=0x7f090084;
         public static final int ratingBar_contribution=0x7f09000f;
         public static final int ratingBar_originality=0x7f09000d;
@@ -170,18 +173,18 @@ public final class R {
         public static final int reg_email=0x7f090051;
         public static final int reg_fullname=0x7f090050;
         public static final int reg_password=0x7f090052;
-        public static final int search=0x7f09008e;
+        public static final int search=0x7f09008f;
         public static final int searchButton=0x7f090024;
         public static final int searchField=0x7f090023;
         public static final int searchpeople=0x7f090054;
-        public static final int searchpeopletext=0x7f090090;
+        public static final int searchpeopletext=0x7f090091;
         public static final int searchprincipal=0x7f09004d;
         public static final int searchtext=0x7f09006d;
         public static final int showfriends=0x7f090057;
         public static final int sign_in_button=0x7f09004a;
         public static final int sl=0x7f09006b;
-        public static final int spinner=0x7f09008a;
-        public static final int tableLayout1=0x7f090088;
+        public static final int spinner=0x7f09008b;
+        public static final int tableLayout1=0x7f090089;
         public static final int tableRow1=0x7f09005b;
         public static final int tableRow2=0x7f09005d;
         public static final int tableRow3=0x7f09005f;
@@ -237,6 +240,7 @@ public final class R {
         public static final int row_listview_people_list=0x7f03001a;
         public static final int search_android_layout=0x7f03001b;
         public static final int search_people=0x7f03001c;
+        public static final int tags=0x7f03001d;
     }
     public static final class menu {
         public static final int article_evaluation=0x7f080000;
@@ -251,10 +255,10 @@ public final class R {
         public static final int show_profile=0x7f080009;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f060034;
+        public static final int action_forgot_password=0x7f060035;
         public static final int action_settings=0x7f060007;
-        public static final int action_sign_in_register=0x7f060032;
-        public static final int action_sign_in_short=0x7f060033;
+        public static final int action_sign_in_register=0x7f060033;
+        public static final int action_sign_in_short=0x7f060034;
         public static final int app_name=0x7f060000;
         public static final int article_evaluation=0x7f06000d;
         public static final int article_removed=0x7f060017;
@@ -269,10 +273,10 @@ public final class R {
         public static final int contextual_menu_view=0x7f06000b;
         public static final int do_you_really_want_to=0x7f060016;
         public static final int download_complete=0x7f06001a;
-        public static final int error_field_required=0x7f060039;
-        public static final int error_incorrect_password=0x7f060038;
-        public static final int error_invalid_email=0x7f060036;
-        public static final int error_invalid_password=0x7f060037;
+        public static final int error_field_required=0x7f06003a;
+        public static final int error_incorrect_password=0x7f060039;
+        public static final int error_invalid_email=0x7f060037;
+        public static final int error_invalid_password=0x7f060038;
         public static final int evaluation_originality=0x7f06001c;
         public static final int evaluation_readability=0x7f06001e;
         public static final int evalution_contribution=0x7f06001d;
@@ -282,19 +286,20 @@ public final class R {
         public static final int external_storage_unavailable=0x7f060018;
         public static final int innovation=0x7f06000e;
         public static final int libraries=0x7f060027;
-        public static final int login_progress_signing_in=0x7f060035;
+        public static final int login_progress_signing_in=0x7f060036;
         public static final int menu_my_downloads=0x7f060006;
         public static final int menu_search=0x7f060005;
         public static final int no=0x7f060014;
         /**  Strings related to login 
          */
-        public static final int prompt_email=0x7f060030;
-        public static final int prompt_password=0x7f060031;
+        public static final int prompt_email=0x7f060031;
+        public static final int prompt_password=0x7f060032;
         public static final int relevance=0x7f060010;
         public static final int save=0x7f060012;
         public static final int search=0x7f060026;
-        public static final int searching=0x7f06002e;
-        public static final int spinner_title=0x7f06002d;
+        public static final int searching=0x7f06002f;
+        public static final int spinner_title=0x7f06002e;
+        public static final int spinner_title2=0x7f06002d;
         public static final int title=0x7f060024;
         public static final int title_activity_article_detail=0x7f060002;
         public static final int title_activity_article_evaluation=0x7f06000c;
@@ -303,7 +308,7 @@ public final class R {
         public static final int title_activity_articles_downloaded=0x7f060003;
         public static final int title_activity_edit_profile=0x7f06002b;
         public static final int title_activity_evaluation_article_detail=0x7f060004;
-        public static final int title_activity_login=0x7f06002f;
+        public static final int title_activity_login=0x7f060030;
         public static final int title_activity_menu=0x7f060028;
         public static final int title_activity_register=0x7f060022;
         public static final int title_activity_search_people=0x7f060029;
