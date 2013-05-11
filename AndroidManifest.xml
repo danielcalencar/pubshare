@@ -93,6 +93,16 @@
             android:name="br.ufrn.dimap.pubshare.activity.ShowFriendsActivity"
             android:label="@string/title_activity_show_friends" >
         </activity>
+        <activity
+           android:name="br.ufrn.dimap.pubshare.recomendation.ActivityRecommendation" 
+           android:label="@string/title_recomendation"
+            ></activity>
+      
+         <activity
+           android:name="br.ufrn.dimap.pubshare.recomendation.ActivityFriends" 
+            android:label="@string/title_friend"
+            ></activity>
+        
     </application>
 
 </manifest>

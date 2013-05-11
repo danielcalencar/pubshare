@@ -17,7 +17,7 @@ import android.widget.AdapterView.OnItemClickListener;
 public class ActivityFriends extends Activity implements OnItemClickListener{
 
 	private final static String[] amigos = new String[] {
-		"Friend 1", "Friend 2", "Friend 3"
+		"Jose", "Ricardo", "Pedro"
 		};
 	
 	

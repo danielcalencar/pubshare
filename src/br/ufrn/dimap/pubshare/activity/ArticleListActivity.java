@@ -44,6 +44,7 @@ import br.ufrn.dimap.pubshare.evaluation.ArticleDetailActivity;
 import br.ufrn.dimap.pubshare.evaluation.ArticleEvaluationActivity;
 import br.ufrn.dimap.pubshare.evaluation.ArticleEvaluationDetailActivity;
 import br.ufrn.dimap.pubshare.mocks.ArticleMockFactory;
+import br.ufrn.dimap.pubshare.recomendation.ActivityRecommendation;
  
 
 
@@ -131,6 +132,10 @@ public class ArticleListActivity extends Activity {
 				return true;
 			case R.id.contextual_menu_share:
 				// share
+				intent = new Intent(this,  ActivityRecommendation.class );		
+				selectedArticle =  ArticleMockFactory.singleArticle();
+				intent.putExtra( Article.KEY_INSTANCE , selectedArticle );
+				startActivity(intent);				
 				return true;
 		
 			default:
