@@ -1,30 +1,32 @@
-	package br.ufrn.dimap.pubshare.adapters;
+/**
+ *    This file is part of PubShare.
+ *
+ *    PubShare is free software: you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation, either version 3 of the License, or
+ *    (at your option) any later version.
+ *
+ *    PubShare is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with PubShare.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
-import java.util.ArrayList;
+package br.ufrn.dimap.pubshare.people;
+
 import java.util.List;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.nfc.Tag;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.PopupMenu;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 import br.ufrn.dimap.pubshare.activity.R;
-import br.ufrn.dimap.pubshare.activity.SearchPeopleActivity;
-import br.ufrn.dimap.pubshare.activity.ShowFriendsActivity;
 import br.ufrn.dimap.pubshare.domain.User;
-import br.ufrn.dimap.pubshare.mocks.UserMockFactory;
 
 public class FriendsListAdapter extends ArrayAdapter<User> {
 	
