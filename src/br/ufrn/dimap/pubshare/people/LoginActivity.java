@@ -1,30 +1,43 @@
-package br.ufrn.dimap.pubshare.activity;
+/**
+ *    This file is part of PubShare.
+ *
+ *    PubShare is free software: you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation, either version 3 of the License, or
+ *    (at your option) any later version.
+ *
+ *    PubShare is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with PubShare.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+package br.ufrn.dimap.pubshare.people;
 
 import java.util.HashMap;
 
-import br.ufrn.dimap.pubshare.PubnotesApplication;
-import br.ufrn.dimap.pubshare.domain.User;
-import br.ufrn.dimap.pubshare.restclient.LoginRestClient;
-import br.ufrn.dimap.pubshare.restclient.results.AuthenticationResult;
-import br.ufrn.dimap.pubshare.util.SessionManager;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import br.ufrn.dimap.pubshare.PubnotesActivity;
+import br.ufrn.dimap.pubshare.activity.R;
+import br.ufrn.dimap.pubshare.domain.User;
+import br.ufrn.dimap.pubshare.restclient.LoginRestClient;
+import br.ufrn.dimap.pubshare.util.SessionManager;
 
 /**
  * Activity which displays a login screen to the user, offering registration as

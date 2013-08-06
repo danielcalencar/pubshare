@@ -1,6 +1,21 @@
-package br.ufrn.dimap.pubshare.activity;
+/**
+ *    This file is part of PubShare.
+ *
+ *    PubShare is free software: you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation, either version 3 of the License, or
+ *    (at your option) any later version.
+ *
+ *    PubShare is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with PubShare.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
-import java.util.HashMap;
+package br.ufrn.dimap.pubshare.people;
 
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -10,23 +25,22 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
-import br.ufrn.dimap.pubshare.domain.Profile;
-import br.ufrn.dimap.pubshare.domain.User;
-import br.ufrn.dimap.pubshare.restclient.results.AuthenticationResult;
-import br.ufrn.dimap.pubshare.restclient.results.UserResult;
-import br.ufrn.dimap.pubshare.util.Constants;
-import br.ufrn.dimap.pubshare.util.SessionManager;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import br.ufrn.dimap.pubshare.PubnotesActivity;
+import br.ufrn.dimap.pubshare.activity.R;
+import br.ufrn.dimap.pubshare.domain.User;
+import br.ufrn.dimap.pubshare.restclient.UserResult;
+import br.ufrn.dimap.pubshare.util.Constants;
+import br.ufrn.dimap.pubshare.util.SessionManager;
 
 public class EditProfileActivity extends PubnotesActivity {
 	private ProgressDialog dialog;
